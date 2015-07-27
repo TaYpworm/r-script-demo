@@ -3,13 +3,15 @@
 # This script will work in Linux assuming Rscript is installed at the path 
 # above.
 
+# To execute this script add execute mode for your user:
+# $ chmod u+x console_demo.r
+# $ ./console_demo.r <parameters>
+
 # For Windows read: http://stackoverflow.com/questions/2151212/how-can-i-read-command-line-parameters-from-an-r-script
 # A bat script is used to set the path to Rscript.exe or Rterm.exe then
 # execute the script.
 
-# To execute this script add execute mode for your user:
-# $ chmod u+x console_demo.r
-# $ ./console_demo.r <parameters>
+# See demo.bat file for an example.
 
 # main() prints the command line parameters.
 main <- function(args) 
